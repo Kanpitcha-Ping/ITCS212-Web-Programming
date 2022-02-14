@@ -1,0 +1,178 @@
+.container {
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formSearch, .formFunc, .userInfo {
+    width: 80%;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: beige;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.formSearch form, .formFunc form, .userInfo form {
+    width: 90%;
+    align-self: center;
+    border-radius: 20px;
+}
+
+#result, #showAll, #showUserList {
+    padding: 20px;
+    margin: 0;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+#showUser {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+input, select {
+    outline: none;
+}
+
+input[type=text], #typID, #typName, #typTName, #typTID {
+    width: 98.5%;
+}
+
+#s_uid {
+    width: 100%;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+datalist, select {
+    cursor: pointer;
+}
+
+option {
+    background-color: #e4a27f;
+}
+
+.formSearch input[type=button] {
+    background-color: #785748;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.formFunc .col-label {
+    margin-left: 1%;
+    width: 29%;
+}
+
+input[type=button] {
+    background-color: #785748;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-left: 1%;
+    width: 18%;
+    cursor: pointer;
+}
+
+#searchUsers, #searchItems {
+    margin-left: 0;
+}
+
+input[type=button]:hover {
+    background-color: #c09886;
+}
+
+.col-label {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+}
+  
+.col-input {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+}
+
+#userSearch .col-input {
+    width: 85%;
+} 
+
+.col1-label, #userSearch .col-label {
+    float: left;
+    width: 14%;
+    margin-top: 6px;
+}
+ 
+.col2-label {
+    float: left;
+    width: 14%;
+    margin-top: 6px;
+}
+
+.col1-input {
+    float: left;
+    width: 34%;
+    margin-top: 6px;
+    margin-right: 3.5%;
+}
+
+.col2-input {
+    float: left;
+    width: 34%;
+    margin-top: 6px;
+}
+
+.Table {
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+th {
+    background-color: #e4a27f;
+}
+
+tbody tr:hover {
+    background-color: #f0d9cd;
+}
+
+.row-adminBtn0 input, .row-adminBtn1 input {
+    width: 18%;
+    margin-left: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col-view {
+    text-align: center;
+}

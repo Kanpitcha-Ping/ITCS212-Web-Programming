@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Register | Teaory</title>
+        <link rel="stylesheet" href="styles/styleHome.css" type="text/css"/>
+        <script src="scripts/Home.js" type="text/javascript"></script>
+        
+        <style>
+
+            .box{
+                bottom: 0;
+                height: 520px;
+                width: 300px;
+                margin: auto;
+                left: 0;
+                position: inherit;
+                right: 0;
+                top: 0;
+                
+                border: 1px solid black;
+                border-radius: 10px; 
+                background-color:#F5F5F5;  
+                text-align: center;
+                padding: 50px;
+                box-shadow: 2px 2px 2px #e2d8d7;
+            }
+
+            input[type=text]{
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            input[type=password]{
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            input[type=submit], input[type=button] {
+                width: 100%;
+                background-color: #cb8e8b;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 15px;
+                cursor: pointer;
+            }
+
+            #toprofile {
+                width: 100%;
+                background-color: #cb8e8b;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 15px;
+                cursor: pointer;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+
+        <header>
+            <img src="icons/logo.png" alt="logo">
+        </header>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="log in.html">Log in</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="About us.html">About us</a></li>
+            </ul>
+        </nav>
+
+        <main style="height: 50rem;">
+
+            <div class="box">
+                <img class="image" src="icons/logooo.png" style="height: 90px;width: 80px;vertical-align: middle;">
+                <h2>Create Account</h2>
+                <div class="formuserpass">
+                    <form id="newAccount">
+                        <label for="username">Username: </label><br>
+                        <input type="text" id="username" name="username" placeholder="username" required pattern="[A-Za-z0-9_]*" title="Only the uppercase, lowercase letter, and number"><br>
+                        <label for="password">Password: </label><br>
+                        <input type="password" id="password" name="password" placeholder="password" required pattern="[A-Za-z0-9_.]{8,}" title="Password must contain at least one uppercase one lowercase letter and number"><br>
+                        <label for="password">Confirm Password: </label><br>
+                        <label id="checkPwd" style="color: gray; font-size: small;"></label>
+                        <input type="password" id="comfirmPwd" name="password" placeholder="password" required pattern="[A-Za-z0-9_.]{8,}" title="Password must contain at least one uppercase one lowercase letter and number"><br>
+                        <input id="insertNewAccount" type="submit" value="Create account">
+                    </form>
+                    <form action="log in.html">
+                        <input type="submit" value="Go to log in">
+                    </form>
+                </div> 
+            </div>
+        </main>
+
+        <footer>
+            <section class="sec1">
+                <h4>Teaory</h4>
+                <ul class="foot">
+                    <li><a href="About us.html">About us</a></li>
+                    <li><a href="product.html">Our products</a></li>
+                </ul>
+                <h4>Languages</h4>
+                <button id="selectLang" type="button" onclick="showLang()">Select language</button>
+                <ul class="dropList-lang" id="dropdown-lang">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Thai</a></li>
+                </ul>
+            </section>
+            
+            <section class="sec2">
+                <h4>Comments</h4>
+                <div class="form">
+                    <form>
+                        <textarea placeholder="Message..." rows="3" id="txtMessages"></textarea>
+                        <input type="submit" class="sent" value="Submit">
+                    </form>
+                </div>
+            </section>
+
+            <section class="sec3">
+                <h4>Contact us</h4>
+                <ul class="foot">
+                    <li>
+                        <ul id="contactIcons">
+                            <li><a href="#"><img src="icons/facebook.png"></a></li>
+                            <li><a href="#"><img src="icons/instagram.png"></a></li>
+                            <li><a href="#"><img src="icons/twitter.png"></a></li>
+                            <li><a href="#"><img src="icons/youtube.png"></a></li>
+                            <li><a href="#"><img src="icons/linkedin.png"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </footer>
+        <script src="scripts/Registration.js" type="text/javascript"></script>
+    </body>
+</html>
