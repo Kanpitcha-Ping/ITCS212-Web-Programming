@@ -2,7 +2,7 @@
 /* Database Preparation */
 1. Add new user account as:
     login name = teaoryUser
-    password = teaoryUser011045064089
+    password = 
     host = localhost
     schema privileges = (teaory) SELECT, INSERT, UPDATE, DELETE
 
