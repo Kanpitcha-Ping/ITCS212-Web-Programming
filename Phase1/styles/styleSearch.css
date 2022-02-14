@@ -1,0 +1,132 @@
+
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 250px;
+    
+}
+
+.toSearch form { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+    
+.toSearch input {
+    width: 300px;
+    border-radius: 15px;
+    outline: none;
+    border-color: #e4a27f;
+    border-style: solid;
+    padding: 1px;
+    text-align: center;
+}
+
+.toSearch input:hover {
+    opacity: 0.6;
+}
+
+.toSearch button {
+    width: 20px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.toSearch button:hover {
+    opacity: 0.6;
+}
+
+
+.dropList ul {
+    list-style-type: none;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 65px;
+    width: 270px;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.dropList ul li {
+    visibility: hidden;
+}
+
+#listMenu li a {
+    background-color:  #edc2af;
+    margin: auto;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: rgb(66, 64, 64);
+}
+
+#listMenu li a:hover {
+    background-color:  #d3c6b6;
+    color: #785748;
+}
+
+.containImg img {
+    height: 200px;
+}
+
+.containImg p {
+    padding: 75px;
+}
+
+.containImg {
+    height: 200px;
+    background-color: rgb(236, 199, 156);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-content: center;
+}
+
+.containerResult {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    height: auto;
+    width: 1020px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.tea {
+    width: 300px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    height: auto;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.containerBg {
+    margin: 0;
+    background-color: #c1c6af;
+    width: 100%;
+    text-align: center;
+}
+
+.menupic {
+    width: 100px;
+    height: 150px;
+}

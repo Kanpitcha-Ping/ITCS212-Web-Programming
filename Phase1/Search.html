@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Search</title>
+
+        <link rel="stylesheet" href="styles/styleHome.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/styleSearch.css" type="text/css"/>
+        <script src="scripts/forSearch.js" type="text/javascript"></script>
+        <script src="scripts/Home.js" type="text/javascript"></script>
+        
+    </head>
+
+    <body>
+
+        <header>
+            <a href="Index.html"><img src="icons/logo.png" alt="logo"></a>
+        </header>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="navbar">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Login.html">Log in</a></li>
+                <li><a href="Search.html">Search</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Delivery.html">Delivery</a></li>
+                <li><a href="About us.html">About us</a></li>
+            </ul>
+        </nav>
+
+
+        <main>
+            <article class="container" style="height: 300px;">
+                <p class="titleName">- Search Our Site -</p>
+
+                <section class="toSearch">
+                    <form action="Result.html" method="GET">
+                        <input type="text" id="searchBox" name="searchKey" placeholder="Search here" title="Type in a product" onclick="dis()" onkeyup="funcSearch()">
+                        <button id="clickSearch" type="submit" ><img src="icons/search.png" style="width: 15px;height: 15px;"></button>
+                    </form>
+                </section>   
+
+                <section class="dropList" >
+                    <ul id="listMenu">
+                        <li><a href="Products.html">Rose tea</a></li>
+                        <li><a href="Products.html">Jasmine tea</a></li>
+                        <li><a href="Products.html">Chrysanthemum tea</a></li>
+                        <li><a href="Products.html">Marigold tea</a></li>
+                        <li><a href="Products.html">Lavender tea</a></li>
+                        <li><a href="Products.html">Sacred lotus tea</a></li>
+                        <li><a href="Products.html">Chamomile tea</a></li>
+                    </ul> 
+                </section>
+
+            </article>
+        
+        </main>
+
+        <footer>
+            <section class="sec1">
+                <h4>Teaory</h4>
+                <ul class="foot">
+                    <li><a href="About us.html">About us</a></li>
+                    <li><a href="Products.html">Our products</a></li>
+                </ul>
+                <h4>Languages</h4>
+                <button id="selectLang" type="button" onclick="showLang()">Select language</button>
+                <ul class="dropList-lang" id="dropdown-lang">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Thai</a></li>
+                </ul>
+            </section>
+            
+            <section class="sec2">
+                <h4>Comments</h4>
+                <div class="form">
+                    <form>
+                        <textarea placeholder="Message..." rows="3" id="txtMessages"></textarea>
+                        <input type="submit" class="sent" value="Submit">
+                    </form>
+                </div>
+            </section>
+
+            <section class="sec3">
+                <h4>Contact us</h4>
+                <ul class="foot">
+                    <li>
+                        <ul id="contactIcons">
+                            <li><a href="#"><img src="icons/facebook.png"></a></li>
+                            <li><a href="#"><img src="icons/instagram.png"></a></li>
+                            <li><a href="#"><img src="icons/twitter.png"></a></li>
+                            <li><a href="#"><img src="icons/youtube.png"></a></li>
+                            <li><a href="#"><img src="icons/linkedin.png"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </footer>
+    </body>
+
+</html>

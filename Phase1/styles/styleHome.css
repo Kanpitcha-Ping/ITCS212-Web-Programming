@@ -1,0 +1,274 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #e4a27f;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+    background-color:#e4a27f;
+    margin: 0;
+}
+
+/* nav ul */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar a {
+    color: #2E3251;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0;
+}
+
+.navbar li{
+    letter-spacing: 8px;
+    padding: 15px;
+    background-color:#e4a27f;
+}
+
+.navbar a:hover{
+    color: #f4c8b5;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 1s linear;
+    -webkit-transition: color 0.2s linear;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding:0;
+    margin:0;
+    background-color: #efead7;
+}
+
+.titleName {
+    text-align: center;
+    letter-spacing: 8px; 
+}
+
+.containerUs {
+    width: 90%; 
+}
+
+.perleft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perright{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.imageUs{
+    height: 130px;
+    width: 150px;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius:  50%;
+
+}
+
+footer {
+    position: static;
+    width: 100%;
+    bottom: 0;
+    height: 20rem;
+    background-color:#e4a27f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 8px;    
+}
+
+footer section {
+    width: 40%;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    
+    /*background: chocolate;*/
+}
+
+footer .foot {
+    list-style-type:none;
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+footer a {
+    color: #2E3251;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer li {
+    margin-top: 20px;
+}
+
+footer a:hover{
+    color: #785748;
+    text-decoration: none;
+    transition: color 1s linear;
+    -webkit-transition: color 0.2s linear;
+}
+
+#selectLang {
+    margin-bottom: 0;
+    margin-left: 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(238, 215, 189);
+    box-shadow: 0 3px rgb(180, 175, 175);
+    cursor: pointer;
+    outline: none;
+}
+
+#selectLang:active{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px rgb(88, 86, 86);
+    transform: translateY(2px);
+}
+
+#selectLang:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+
+#dropdown-lang {
+    list-style-type:none;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding: 0;
+    width: 100px;
+
+}
+
+.dropList-lang li {
+    visibility: hidden;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2px;
+    box-shadow: 0 1px #785748;
+    width: 100px;
+}
+
+.dropList-lang a {
+    margin: 0;
+    padding: 0;
+}
+
+#contactIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+#contactIcons li, a {
+    margin: 0;
+}
+
+#contactIcons img {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+#contactIcons img:hover {
+    opacity: 0.6;
+    transform: translateY(-5px);
+}
+
+header img {
+    height: 80px;
+    width: 290px;
+    vertical-align: middle;   
+}
+
+.form textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #edc2af;
+    outline: none;
+}
+
+.form-inner textarea {
+    resize: none;
+}
+
+.form .sent{
+    width: auto;
+    background-color: #785748;
+    text-align: center;
+    color: white;
+    margin: 8px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.formuserpass{
+    text-align: left;
+}
+
+.form{
+    text-align: right;
+}
+
+
+#goto {
+    width: 100px;
+    background-color: #cb8e8b;
+    color: white;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}

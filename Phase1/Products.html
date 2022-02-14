@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Products  | Teaory</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+        <link rel="stylesheet" href="styles/styleHome.css" type="text/css"/>
+        <script src="scripts/Home.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="styles/styleMenu.css" type="text/css"/>
+        <script src="scripts/toShowProduct.js" type="text/javascript"></script>
+    
+    </head>
+
+    <body>
+
+        <header>
+            <a href="Index.html"><img src="icons/logo.png" alt="logo"></a>
+        </header>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="navbar">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Login.html">Log in</a></li>
+                <li><a href="Search.html">Search</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Delivery.html">Delivery</a></li>
+                <li><a href="About us.html">About us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <main>
+            <p class="titleName">- Teaory's Menu -</p>
+            <article class="containnerProd">
+                <section class="showMenu">
+                    <div class="row" id="tea">
+                        <div class="column">
+                          <img class="menupic" src="images/rose tea.jpg" alt="rose">
+                          <h2 id="nametea">Rose Tea</h2>
+                          <h4 id="littlename">TEAORY’s Rose Tea (n.) tea of desired love.</h4>
+                          <p id="para">
+                            <span id="close1"></span>
+                            <span id="more1">
+                                The rose tea is a widely famous flower tea nowadays due to its beautiful color and its sweet fragrance. 
+                                Including the properties that equal the customer’s needs. 
+                                Our rose tea is a best seller which is our signature tea. 
+                                Just drinking a cup of Teaory’s rose tea will help to relieve stress. 
+                                It soothes the body and mind by taking time to indulge in the sweet. 
+                                Rose tea maintains a healthy heart, contains antioxidants, and nourishes the skin to make it brighter. 
+                            </span>
+                          </p>
+                          <button onclick="Function1()" id="check1">Read more</button>
+
+                          <p id="para">
+                            <span id="hide1"></span>
+                            <span id="make1">
+                                Pour hot water to scald a teacup for maintaining the temperature of teacup. 
+                                Then, add 3-5 grams of flowers or ⅓ of glass, pour hot water over it, pour it out immediately to activate the tea to smell faster. 
+                                Then, pour hot water into the pot about 200-300 ml at 80-90 degrees and leave the tea for 1-2 minutes. 
+                                When the time is over, you can sieve the flowers and drink the tea. 
+                                Flower tea can be rebrewed 2-3 times but it should not be left overnight.  
+                            </span>
+                          </p>
+                          <button onclick="f1()" id="show1">Tea making</button>
+                        </div>
+
+                        <div class="column">
+                          <img class="menupic" src="images/chrysanthemum tea.jpg" alt="Chrysanthemum">
+                          <h2 id="nametea">Chrysanthemum Tea</h2>
+                          <h4 id="littlename">TEAORY’s Chrysanthemum Tea (n.) tea of devoted love.</h4>
+                          <p id="para">
+                            <span id="close2"></span>
+                            <span id="more2">
+                                Teaory’s chrysanthemum tea has a unique fragrance and soft taste. 
+                                It is suitable for sipping a cup in the afternoon with a slice of bread. 
+                                Chrysanthemum tea has properties to help quench thirst, nourish the heart, and build immunity to the body. 
+                                It also treats the respiratory and digestive system. Including, life extension. 
+                                Anyone who likes the scent and soft taste of chrysanthemum flowers. 
+                                Don’t forget to come and try our tea.  
+                            </span>
+                          </p>
+                          <button onclick="Function2()" id="check2">Read more</button>
+
+                          <p id="para">
+                            <span id="hide2"></span>
+                            <span id="make2">
+                                Pour hot water to scald a teacup for maintaining the temperature of teacup. 
+                                Then, add 3-5 grams of flowers or ⅓ of glass and pour hot water over it and pour it out immediately to activate the tea to smell faster. 
+                                Then, pour hot water into the pot about 200-300 ml  at 80-100 degrees and leave the tea for 1-2 minutes. 
+                                When the time is over, you can sieve the flowers and drink the tea. 
+                                Flower tea can be rebrewed 2-3 times but it should not be left overnight.   
+                            </span>
+                          </p>
+                          <button onclick="f2()" id="show2">Tea making</button>
+                        </div>
+                    </div>
+
+                    <div class="row" id="tea">
+
+                        <div class="column">
+                          <img class="menupic" src="images/jasmine tea.jpg" alt="Jasmine">
+                          <h2 id="nametea">Jasmine tea</h2>
+                          <h4 id="littlename">TEAORY’s Jasmine tea (n.) tea of innocent love.</h4>
+                          <p id="para">
+                            <span id="close3"></span>
+                            <span id="more3">
+                                Teaory’s Jasmine tea has a delight sense with a sweet aroma and blossom that relieves fatigue and heart burnt thrist. 
+                                Also, stimulate the heart function, control blood pressure, help with sleeping deeply, soothe the stomach ache and chronic wounds. 
+                                Jasmine tea also contains some vitamins and minerals that come from green tea leaves. 
+                            </span>
+                          </p>
+                          <button onclick="Function3()" id="check3">Read more</button>
+
+                          <p id="para">
+                            <span id="hide3"></span>
+                            <span id="make3">
+                                Pour hot water to scald a teacup for maintaining the temperature of teacup. 
+                                Then, add 3-5 grams of flowers or ⅓ of glass and pour hot water over it and pour it out immediately to activate the tea to smell faster. 
+                                Then, pour hot water into the pot about 200-300 ml  at 80-100 degrees and leave the tea for 1-2 minutes. 
+                                When the time is over, you can sieve the flowers and drink the tea. 
+                                Flower tea can be rebrewed 2-3 times but it should not be left overnight.   
+                            </span>
+                          </p>
+                          <button onclick="f3()" id="show3">Tea making</button>
+                        </div>
+
+                        <div class="column">
+                          <img class="menupic" src="images/lotus tea.jpg" alt="Sacred lotus">
+                          <h2 id="nametea">Sacred lotus tea</h2>
+                          <h4 id="littlename">TEAORY’s Sacred lotus tea (n.) Tea of falling in love again.</h4>
+                          <p id="para">
+                            <span id="close4"></span>
+                            <span id="more4">
+                                Our innovative menu that we would like to present is Teaory’s Sacred lotus tea. 
+                                The lotus petals have high antioxidants. 
+                                The sacred lotus tea is outstanding in terms of inhibiting the blood, allowing the blood flow fluently, and helping the body rejuvenate. 
+                                Moreover, it nourishes blood, heart, kidney, and pregnancy. Our tea can reduce blood fat, prevent infection, and increase immunity. 
+                                If you want to be in love, you should come and try one.  
+                            </span>
+                          </p>
+                          <button onclick="Function4()" id="check4">Read more</button>
+
+                          <p id="para">
+                            <span id="hide4"></span>
+                            <span id="make4">
+                                Pour hot water to scald a teacup for maintaining the temperature of teacup. 
+                                Then, add 3-5 grams of flowers or ⅓ of glass and pour hot water over it and pour it out immediately to activate the tea to smell faster. 
+                                Then, pour hot water into the pot about 200-300 ml  at 80-100 degrees and leave the tea for 1-2 minutes. 
+                                When the time is over, you can sieve the flowers and drink the tea. 
+                                Flower tea can be rebrewed 2-3 times but it should not be left overnight   
+                            </span>
+                          </p>
+                          <button onclick="f4()" id="show4">Tea making</button>
+                        </div>
+                    </div>
+
+                    <div class="row" id="tea">
+
+                        <div class="column">
+                          <img class="menupic" src="images/marigold tea.jpg" alt="Marigold">
+                          <h2 id="nametea">Marigold tea</h2>
+                          <h4 id="littlename">TEAORY’s Marigold tea (n.) tea of romantic love.</h4>
+                          <p id="para">
+                            <span id="close5"></span>
+                            <span id="more5">
+                                We are proud to present the Teaory’s Marigold tea which has an interesting clear color. 
+                                Our Marigold flowers tend to transform into tea with the full benefits. 
+                                Our tea is full-filled with the beta carotene and lutein which help to nourish your eyes. 
+                                It also treats various inflammation and improves freshness from stressful conditions. 
+                                Therefore, we really recommend Teaory’s Marigold tea if you want to rest your heart.   
+                            </span>
+                          </p>
+                          <button onclick="Function5()" id="check5">Read more</button>
+
+                          <p id="para">
+                            <span id="hide5"></span>
+                            <span id="make5">
+                                Pour hot water to scald a teacup for maintaining the temperature of teacup. 
+                                Then, add 5 grams of flower tea or ⅓ of glass and pour hot water over it and pour it out immediately to activate the tea to smell faster. 
+                                Then, pour hot water into the pot about 300 ml  at 80-100 degrees and leave the tea for 1-2 minutes. 
+                                When the time is over, you can sieve the flowers and drink the tea. 
+                                Flower tea can be rebrewed 2-3 times but it should not be left overnight.    
+                            </span>
+                          </p>
+                          <button onclick="f5()" id="show5">Tea making</button>
+                        </div>
+
+                        <div class="column">
+                          <img class="menupic" src="images/lavender tea.jpg" alt="Lavender">
+                          <h2 id="nametea">Lavender tea</h2>
+                          <h4 id="littlename">TEAORY’s Lavender tea (n.) tea of love at first sight.</h4>
+                          <p id="para">
+                            <span id="close6"></span>
+                            <span id="more6">
+                                The Lavender flower is famous in terms of light fragrance. 
+                                It tends to transform into many products. When it is in the form of tea, there is a relaxing fragrance. 
+                                The properties of lavender tea help to calm the brain, nourish the brain for good memory, and digest the system to work better. 
+                                Furthermore, It also helps to relieve stress from fatigue, make sleep more comfortable, and not be lost to jasmine at all.  
+                                If you want to fall in love with it, Teaory’s Lavender tea is ready to serve.    
+                            </span>
+                          </p>
+                          <button onclick="Function6()" id="check6">Read more</button>
+
+                          <p id="para">
+                            <span id="hide6"></span>
+                            <span id="make6">
+                                Pour hot water to scald a teacup for maintaining the temperature of teacup. 
+                                Then, add 3-5 grams of flowers or ⅓ of glass and pour hot water over it and pour it out immediately to activate the tea to smell faster. 
+                                Then, pour hot water into the pot about 200-300 ml  at 80-100 degrees and leave the tea for 1-2 minutes. 
+                                When the time is over, you can sieve the flowers and drink the tea. 
+                                Flower tea can be rebrewed 2-3 times but it should not be left overnight.    
+                            </span>
+                          </p>
+                          <button onclick="f6()" id="show6">Tea making</button>
+                        </div>
+                    </div>
+
+                    <div class="row" id="tea">
+
+                        <div class="column">
+                          <img class="menupic" src="images/osmanthus tea.jpg" alt="Osmanthus">
+                          <h2 id="nametea">Osmanthus tea</h2>
+                          <h4 id="littlename">TEAORY’s Osmanthus tea (n.) tea of faithfulness love.</h4>
+                          <p id="para">
+                            <span id="close7"></span>
+                            <span id="more7">
+                                Osmanthus flower is an eternal immortal flower that smells as far as the wind up to ten thousand li. 
+                                It has an unique and Thai style scent. Its properties are helping nourish the lungs, reducing cholesterol, fat in the blood, and symptoms of bad breath. 
+                                Moreover, It also helps to prevent tooth decay, some cancers and heart disease, and eliminate toxins in the body. 
+                                This flower is full of benefits which can relax your health and mind. 
+                                If you want to take care of yourself, you should try Teaory’s Osmanthus flower tea. 
+                            </span>
+                          </p>
+                          <button onclick="Function7()" id="check7">Read more</button>
+
+                          <p id="para">
+                            <span id="hide7"></span>
+                            <span id="make7">
+                                Pour hot water to scald a teacup for maintaining the temperature of teacup. 
+                                Then, add 3-5 grams of flowers or ⅓ of glass and pour hot water over it and pour it out immediately to activate the tea to smell faster. 
+                                Then, pour hot water into the pot about 250-300 ml  at 80-100 degrees and leave the tea for 1-2 minutes. 
+                                When the time is over, you can sieve the flowers and drink the tea. 
+                                Flower tea can be rebrewed 2-3 times but it should not be left overnight.     
+                            </span>
+                          </p>
+                          <button onclick="f7()" id="show7">Tea making</button>
+                        </div>
+
+                        <div class="column">
+                          <img class="menupic" src="images/chamomile tea.jpg" alt="Chamomile">
+                          <h2 id="nametea">Chamomile tea</h2>
+                          <h4 id="littlename">TEAORY’s Chamomile tea (n.) tea of personifies love.</h4>
+                          <p id="para">
+                            <span id="close8"></span>
+                            <span id="more8">
+                                Chamomile tea has gentle notes of crisp apple taste and also has a light taste and floral, some people enjoy it by adding the honey and other transforming flavor. 
+                                The property of chamomile tea is to promote relaxation, relieve anxiety. 
+                                Furthermore it prevents cancer by the antioxidant from tea leaves and treats the digestive system.
+                            </span>
+                          </p>
+                          <button onclick="Function8()" id="check8">Read more</button>
+
+                          <p id="para">
+                            <span id="hide8"></span>
+                            <span id="make8">
+                                Pour hot water to scald a teacup for maintaining the temperature of teacup. 
+                                Then, add 1 teaspoon and pour hot water over it and pour it out immediately to activate the tea to smell faster. 
+                                Then, pour hot water into the pot about 150 ml  at 80-100 degrees and leave the tea for 3-5 minutes. 
+                                When the time is over, you can sieve the flowers and drink the tea. 
+                                Flower tea can be rebrewed 2-3 times but it should not be left overnight.      
+                            </span>
+                          </p>
+                          <button onclick="f8()" id="show8">Tea making</button>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="showProd">
+                    
+                </section>
+            </article>
+
+        </main>
+
+        <footer>
+            <section class="sec1">
+                <h4>Teaory</h4>
+                <ul class="foot">
+                    <li><a href="About us.html">About us</a></li>
+                    <li><a href="Products.html">Our products</a></li>
+                </ul>
+                <h4>Languages</h4>
+                <button id="selectLang" type="button" onclick="showLang()">Select language</button>
+                <ul class="dropList-lang" id="dropdown-lang">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Thai</a></li>
+                </ul>
+            </section>
+            
+            <section class="sec2">
+              <h4>Comments</h4>
+              <div class="form">
+                  <form>
+                      <textarea placeholder="Message..." rows="3" id="txtMessages"></textarea>
+                      <input type="submit" class="sent" value="Submit">
+                  </form>
+              </div>
+          </section>
+
+            <section class="sec3">
+                <h4>Contact us</h4>
+                <ul class="foot">
+                    <li>
+                        <ul id="contactIcons">
+                            <li><a href="#"><img src="icons/facebook.png"></a></li>
+                            <li><a href="#"><img src="icons/instagram.png"></a></li>
+                            <li><a href="#"><img src="icons/twitter.png"></a></li>
+                            <li><a href="#"><img src="icons/youtube.png"></a></li>
+                            <li><a href="#"><img src="icons/linkedin.png"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+      </footer>    
+    </body>
+</html>
+
