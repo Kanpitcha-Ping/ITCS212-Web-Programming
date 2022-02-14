@@ -1,0 +1,100 @@
+/*body{
+    box-sizing: border-box;
+}
+*/
+main {
+    background-color: #efead7;
+    margin:0;
+    padding:0;
+}
+
+.containerProd {
+    display: flex;
+    flex-flow: wrap row; 
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    width: 100%;
+    float: left;
+    padding: 40px 70px;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+}
+
+.menupic {
+    width: 600px;
+    height: 600px;
+}
+
+#nametea, #littlename {
+    font-family: Georgia, serif;
+}
+
+#more1, #more2, #more3, #more4, #more5, #more6, #more7, #more8 {
+    display: none;
+}
+
+#make1, #make2, #make3, #make4, #make5, #make6, #make7, #make8 {
+    display: none;
+}
+
+#para p {
+    width: 300px;
+}
+
+#check1, #check2, #check3, #check4, #check5, #check6, #check7, #check8 {
+    width: 100px;
+    background-color: #cb8e8b;
+    color: white;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+#show1, #show2, #show3, #show4, #show5, #show6, #show7, #show8 {
+    width: 100px;
+    background-color: #785748;
+    color: white;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+#myBtn {
+    /*
+    display: none;
+    */
+    outline: none;
+    border: none;
+    bottom: 20px;
+    position: fixed;
+    right: 30px;
+    z-index: 99;
+    background-color: #475438;
+    color: white;
+    cursor: pointer;
+    padding: 1px 25px;
+    border-radius: 100px;
+}
+
+#myBtn:hover {
+    background-color: #7d854c;
+}
+
+#shopping{
+    justify-content: center;
+}
